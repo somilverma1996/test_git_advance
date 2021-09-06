@@ -17,6 +17,8 @@ export default function UserPage(props) {
     return (
         <>
             <h1>Posts Management</h1>
+            <h1>Redux with Hooks </h1>
+            <h2>Dev Branch Code</h2>
             <div data-name={name}>Username: {name ? name : "NA"}</div>
             {
                 movieList.length > 0
