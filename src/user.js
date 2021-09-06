@@ -16,8 +16,7 @@ export default function UserPage(props) {
     const dispatch = useDispatch()
     return (
         <>
-            <h1>Redux with Hooks </h1>
-            <h2>Master Branch Code</h2>
+            <h1>Posts Management</h1>
             <div data-name={name}>Username: {name ? name : "NA"}</div>
             {
                 movieList.length > 0
@@ -31,8 +30,7 @@ export default function UserPage(props) {
                     <div>No datas</div>
             }
             <button onClick={() => {
-               dispatch(userAction.setMovieName())
-            }}>Set Name</button>
+               dispatch(userAction.setMovieName()) }}>Set Name</button>
 
             {/* Count: {state.count}
             <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
